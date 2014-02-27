@@ -77,7 +77,6 @@ Middelware : Basé sur un SE centralisé communicant ou à architecture réparti
 **SER** : système pour multiprocesseur ou multiordintauer homogène offrant la vision d'un système à image unique
 **Middleware** : couche de service au-dessus d'un SEAR facilitant la réalisation et la mise en oeuvre d'une application répartie.
 
-*Voir schéma*
 
 #### Applications réparties
 
@@ -93,3 +92,19 @@ Problèmes des systèmes répartis
 
 Communication dans les systèmes répartis
 ---------
+
+Il y a plusieurs formes de communications : passage de message, appel de procédure à distance ...
+
+Définitions du modèle client/serveur :
+
+-   Un processus client fait une demande à un processus serveur
+-   Le serveur affectue le service demandé et retourne une réponse au client
+
+>   **Interêts**
+>
+>   Structuration : Services, client et serveur indépendent.
+>   Protection : client et serveur sur des domaines différents
+>   Ressources : serveur peut-être partagé entre plusieurs clients
+
+
+Les appels de procédures sont transparents, permet les contrôle de types, permet la gestion des paramètres et des erreurs.
