@@ -1,0 +1,4 @@
+#### Compilation
+
+idlj -fall [FichierIdl] : all files
+idlj -falltie [FichierIDL] : all files and tie file

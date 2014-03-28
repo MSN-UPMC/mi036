@@ -1,0 +1,11 @@
+module Calculatrice {
+
+  interface ServeurCalculatrice { 
+
+    double add(in double a,in double b);
+    double sub(in double a, in double b);
+    double mult(in double a, in double b);
+    double div(in double a, in double b);
+
+  };
+};
