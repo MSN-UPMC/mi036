@@ -1,0 +1,11 @@
+module HashTable {
+
+  interface HashTableITF{
+
+    boolean containKey(in string key);
+    Object get(in string key);
+    boolean put(in string key,in Object o);
+
+  };
+
+};
