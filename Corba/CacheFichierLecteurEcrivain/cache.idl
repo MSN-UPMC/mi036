@@ -1,0 +1,31 @@
+module cache {
+
+  typedef wstring Data;
+  typedef wstring ComputerReference;
+  typedef wstring FileReference;
+  exception FileUnknown{};
+  exception IOError{};
+
+  interface ServerItf {
+    
+    boolean read(in FileReference fileName, in ComputerReference computerId, out Data data) raises(FileUnknown,IOError);
+    boolean write(in FileReference fileName, in ComputerReference computerId, in Data data) raises(FileUnknown,IOError);
+        
+  };
+  
+  interface WriterItf {
+
+    boolean write(in FileReference fileName, in Data data);
+    void fileDataOutOfDate(in FileReference fileName);
+
+  };
+
+
+  interface ReaderItf {
+
+    boolean read(in FileReference fileName, out Data data) ;
+    void fileDataOutOfDate(in FileReference fileName);
+
+  };
+
+};
