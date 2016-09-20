@@ -1,4 +1,4 @@
-MI036
+UPMC University - MI036 (Systèmes Répartis et Client/Serveur)
 =====
 
-Systèmes Répartis et Client/Serveur
+Testing some client/server concept
