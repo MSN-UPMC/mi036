@@ -1,4 +1,4 @@
 UPMC University - MI036 (Systèmes Répartis et Client/Serveur)
 =====
 
-Testing some client/server and distributed systems
+Starterkit for client/server architectures and distributed systems with Corba and RPC
